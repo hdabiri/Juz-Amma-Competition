@@ -75,6 +75,10 @@ body {
   background-color: violet	;
 }
 
+.color {
+  background-color: blue;
+}
+
 #buttoncontainer {
   text-align: center;
 }

@@ -35,8 +35,22 @@ body {
   cursor: pointer;
   transition: all 0.3s ease-out;
 }
+.centerbutton {
+  display: inline-block;
+  margin: 5px; /* space between buttons */
+  background: darkgreen; /* background color */
+  color: black; /* text color */
+  font-size: 1.5em;
+  font-family: ‘Georgia’, serif;
+  font-style: italic;
+  border-radius: 50px; /* rounded corners */
+  padding: 80px 160px; /* space around text */
+  /* transition: all 0.2s; */
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
 
-.leftbutton:hover, .rightbutton:hover {
+.leftbutton:hover, .rightbutton:hover, .centerbutton:hover {
   background: black;
   color: white;
 }
